@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="formvalidation.css">
+</head>
+<body>
+    <section class="section1">
+        <img src="https://scontent.ftun11-1.fna.fbcdn.net/v/t1.15752-9/58570920_2462447357316308_806479297798733824_n.png?_nc_cat=110&_nc_ht=scontent.ftun11-1.fna&oh=d03d26c76205b553cbe99629bfada60b&oe=5D6E9143" alt="logo" class="image-section">
+   <form action="#" id="reset">
+        <div class="div-section1">
+        <img src="https://scontent.ftun11-1.fna.fbcdn.net/v/t1.15752-9/58594680_410092109810694_7405343682179629056_n.png?_nc_cat=107&_nc_ht=scontent.ftun11-1.fna&oh=487659551cac9676c416036ad3bb569b&oe=5D2C7269" alt="img" class="image">
+       <div class="div-div-section1">
+        <label class="label" for="nom">Nom:</label> 
+        <input  type="text" name="Nom" placeholder="Entrez Votre Nom" id="nom" class="input" required>
+       <a href="#"> Vous devez entrer votre nom</a>
+    </div>
+    </div>
+    <div class="div-section1">
+            <img src="https://scontent.ftun11-1.fna.fbcdn.net/v/t1.15752-9/58739952_669520716834916_1744537044719239168_n.png?_nc_cat=105&_nc_ht=scontent.ftun11-1.fna&oh=5f87d90613bb2ce615204dc63d9766ed&oe=5D6AABFD" alt="img" class="image">
+           <div class="div-div-section1" >
+            <label class="label" for="prenom">Prénom:</label> 
+            <input type="text" name="Nom" placeholder="Entrez Votre Prénom" id="prenom" class="input" required>
+          <a href="#">Vous devez entrer votre prénom</a>
+        </div>
+        </div>
+        <div class="div-section1">
+                <img src="https://refletpratiquereflexive.files.wordpress.com/2015/05/home.png" alt="img" class="image">
+               <div class="div-div-section1">
+                <label class="label" for="adresse">Adresse:</label> 
+                <input type="text" name="Nom" placeholder="Entrez Votre Adresse" id="adresse" class="input" required>
+              <a href="#">Vous devez entrer un adresse</a>
+            </div>
+            </div> 
+        
+            <div class="div-section1">
+                    <img src="https://images.vexels.com/media/users/3/135888/isolated/preview/92edb0f36291c17bf125e8a120f08b9b-email-flat-icon-by-vexels.png" alt="img" class="image">
+                   <div class="div-div-section1">
+                    <label class="label" for="mail">E-mail Adress:</label> 
+                    <input type="email" name="Nom" placeholder="Exemple:mail@domaine.com" id="mail" class="input" required>
+                 <a href="#">Vous devez entrer votre email</a>
+                </div>
+                </div> 
+                <div class="div-section1">
+                        <img src="https://image.flaticon.com/icons/png/512/52/52840.png" alt="img" class="image">
+                       <div class="div-div-section1">
+                        <label class="label" for="password">Password:</label> 
+                        <input type="password" name="Nom" placeholder="Entrez Votre Password" id="password" class="input" required>
+                    <a href="#">Vous devez entrer votre password</a>
+                </div>
+                    </div> 
+                    <div class="div-section1">
+                            <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-commentaire-png-7.png" alt="img" class="image">
+                           <div class="div-div-section1">
+                            <label class="label" for="Commentaire">Comments:</label> 
+                            <textarea type="text" name="Nom" placeholder="Entrez Votre Commentaire" id="Commentaire" class="input" required></textarea>
+                         <a href="#">Vous devez entrer votre commentaire</a>
+                        </div>
+                        </div>
+                    </form>
+     <input type="button" name="send" value="send" class="input2" id="send" onclick="validation()">  
+     <br>
+     <input type="button" name="Reset" value="Reset" class="input2" id="reset" onclick="reset()">                 
+</section>
+</body>
+<script src="formvalidation.js"></script>
+</html>

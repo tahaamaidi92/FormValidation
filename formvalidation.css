@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import "compass/css3";
+body{
+    margin: 0;
+    background-image: url('http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg');
+
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 65%;
+}
+.div-section1{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+   
+}
+.div-div-section1{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+font-family: 'Lato', Arial, Helvetica, sans-serif;
+font-weight: 100px;
+color: white;
+}
+.input{
+
+    width: 400px;
+    height: 30px;
+    background-color: #2B293B;
+    border-radius: 5px;
+    font-family: 'lato',Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    color: white;
+}
+.input:focus:invalid{ 
+    background: url('https://pngimage.net/wp-content/uploads/2018/06/icone-croix-rouge-png-1.png') 98% center no-repeat    ;
+    background-size: 15px} 
+.input:focus:valid{
+    background: url('https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/512/Tick_Mark-512.png') 98% center no-repeat    ;
+    background-size: 15px 
+}
+a{display: none; text-decoration: none;}
+.input:focus:invalid+a{display: block;color: red}
+#Commentaire{
+    height: 50px
+}
+.input2{
+    width: 225px;
+    height: 30px;
+    background-color: #2B293B;
+    border-radius: 5px;
+    font-family: 'lato',Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    color: white;
+    margin-left: 65px;
+    margin-top: 10px
+    
+}
+.image-section{
+    width: 100px;
+    height: 100px
+}
+.image{
+    width: 70px;
+    height: 70px
+}
